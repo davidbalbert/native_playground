@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["David Albert"]
   s.email       = ["davidbalbert@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Just a place for me to play around with the ruby c api}
+  s.description = %q{Just a place for me to play around with the ruby c api}
 
   s.rubyforge_project = "native_playground"
 
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
-  s.extensions = ["ext/native_gem/extconf.rb"]
+  s.extensions = ["ext/native_playground/extconf.rb"]
 
   s.add_development_dependency "rake-compiler"
 end

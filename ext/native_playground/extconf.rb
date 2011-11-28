@@ -1,3 +1,3 @@
 require 'mkmf'
 
-create_makefile("native_playground")
+create_makefile("native_playground/native_playground")
